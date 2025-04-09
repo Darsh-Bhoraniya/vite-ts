@@ -13,7 +13,7 @@ export function RHFCountrySelect({
 }: CountrySelectProps & {
   name: string;
 }) {
-  const { control, setValue } = useFormsContext();
+  const { control, setValue } = useFormContext();
 
   return (
     <Controller
