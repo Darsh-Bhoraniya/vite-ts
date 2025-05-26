@@ -43,8 +43,8 @@ export const navData = [
       {
         subheader: 'Auth Demo',
         items: [
-          { title: 'Sign in', path: paths.authDemo.split.signIn },
-          { title: 'Sign up', path: paths.authDemo.split.signUp },
+          // { title: 'Sign in', path: paths.authDemo.split.signIn },
+          // { title: 'Sign up', path: paths.authDemo.split.signUp },
           { title: 'Reset password', path: paths.authDemo.split.resetPassword },
           { title: 'Update password', path: paths.authDemo.split.updatePassword },
           { title: 'Verify', path: paths.authDemo.split.verify },
@@ -66,9 +66,9 @@ export const navData = [
       { subheader: 'Dashboard', items: [{ title: 'Dashboard', path: CONFIG.auth.redirectPath }] },
     ],
   },
-  {
-    title: 'Docs',
-    icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.docs,
-  },
+  // {
+  //   title: 'Docs',
+  //   icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
+  //   path: paths.docs,
+  // },
 ];

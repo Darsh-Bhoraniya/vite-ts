@@ -2,7 +2,6 @@ import type { NavSectionProps } from 'src/components/nav-section';
 
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import Button from '@mui/material/Button';
 import { styled, useTheme } from '@mui/material/styles';
 
 import { paths } from 'src/routes/paths';
@@ -193,7 +192,7 @@ export function HeaderBase({
               {signIn && <SignInButton />}
 
               {/* -- Purchase button -- */}
-              {purchase && (
+              {/* {purchase && (
                 <Button
                   data-slot="purchase"
                   variant="contained"
@@ -207,7 +206,7 @@ export function HeaderBase({
                 >
                   Purchase
                 </Button>
-              )}
+              )} */}
             </Box>
 
             {slots?.rightAreaEnd}
