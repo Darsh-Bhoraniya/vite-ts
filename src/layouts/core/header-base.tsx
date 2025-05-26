@@ -12,7 +12,6 @@ import { Logo } from 'src/components/logo';
 import { HeaderSection } from './header-section';
 import { Searchbar } from '../components/searchbar';
 import { MenuButton } from '../components/menu-button';
-import { SignInButton } from '../components/sign-in-button';
 import { AccountDrawer } from '../components/account-drawer';
 import { SettingsButton } from '../components/settings-button';
 import { LanguagePopover } from '../components/language-popover';
@@ -189,7 +188,7 @@ export function HeaderBase({
               {account && <AccountDrawer data-slot="account" data={data?.account} />}
 
               {/* -- Sign in button -- */}
-              {signIn && <SignInButton />}
+              {/* {signIn && <SignInButton />} */}
 
               {/* -- Purchase button -- */}
               {/* {purchase && (
