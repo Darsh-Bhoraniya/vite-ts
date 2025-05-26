@@ -22,6 +22,7 @@ import { useResponsive } from 'src/hooks/use-responsive';
 
 import { _mock } from 'src/_mock';
 import { CONFIG } from 'src/config-global';
+import { textGradient } from 'src/theme/styles';
 
 import { Iconify } from 'src/components/iconify';
 import { SvgColor } from 'src/components/svg-color';
@@ -72,7 +73,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 72, lineHeight: '90px' },
         }}
       >
-        {/* <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
+        <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
           Boost your building
         </Box>
         process with
@@ -94,7 +95,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           }}
         >
           Minimal
-        </Box> */}
+        </Box>
       </Box>
     </MInview>
   );
@@ -109,7 +110,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
         }}
       >
-        {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`}
+        {/* {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`} */}
       </Typography>
     </MInview>
   );
