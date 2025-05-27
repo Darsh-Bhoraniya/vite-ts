@@ -73,7 +73,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 72, lineHeight: '90px' },
         }}
       >
-        <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
+        {/* <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
           Boost your building
         </Box>
         process with
@@ -95,7 +95,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           }}
         >
           Minimal
-        </Box>
+        </Box> */}
       </Box>
     </MInview>
   );
