@@ -74,10 +74,10 @@ export function HomeHero({ sx, ...other }: StackProps) {
         }}
       >
         <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
-          Boost your building
-        </Box> */}
+          {/* Boost your building */}
+        </Box>
         {/* process with */}
-        {/* <Box
+        <Box
           component={m.span}
           animate={{ backgroundPosition: '200% center' }}
           transition={{
@@ -110,7 +110,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
         }}
       >
-        { {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`} }
+        {/* { {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`} } */}
       </Typography>
     </MInview>
   );
