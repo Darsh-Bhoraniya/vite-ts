@@ -110,7 +110,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
         }}
       >
-        {/* {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`} */}
+        {/* { {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`} } */}
       </Typography>
     </MInview>
   );
